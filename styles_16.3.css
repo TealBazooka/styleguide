@@ -15,6 +15,7 @@ Sets up styles for .sidebar-container
 }
 
 .sidebar-container a {
+    font-size: 24px;
     color: white;
     margin-top: 15px;
 }
