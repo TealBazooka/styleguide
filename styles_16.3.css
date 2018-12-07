@@ -1,0 +1,158 @@
+/* 
+====================================
+Sets up styles for .sidebar-container 
+====================================
+*/
+
+.sidebar-container {
+    background-color: #333366;
+    height: 100%;
+    position: fixed;
+    padding: 60px;
+    width: 180px;
+    margin-top: 0;
+    color: white;
+}
+
+.sidebar-container a {
+    color: white;
+    margin-top: 15px;
+}
+
+.sidebar-container a:hover{
+    text-decoration: underline;
+}
+
+nav {
+    top: 0;
+}
+  
+nav a,
+nav h2 {
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+/* 
+====================================
+Sets up styles for .content-container 
+====================================
+*/
+
+/* Positions section container in relation to .sidebar-container */
+.section-container {
+  margin-left: 300px;
+  padding: 30px 30px;
+  height: 100%;
+}
+
+/* Sets max width for content and align content in middle of section-container */
+.content-container {
+   
+}
+
+/* Sets row behavior using flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.row-container-no-wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.colorBox {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+}
+
+.row-container-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* 
+====================================
+BONUS: Sets up styles for mobile breakpoint 
+====================================
+*/
+
+/* Hides mobile navigation on desktop */
+.mobile-nav {
+   
+}
+
+/* Sets media query for screens below 450px wide */
+@media only screen and (max-width: 450px) {
+
+    /* Position nav at the top */
+    nav {
+       position: fixed;
+       left: 0;
+    }
+
+    /* Shows Mobile Navigation Styles  */
+    .mobile-nav {
+       background: whtie;
+       width: 100%;
+       padding: 10px 30px;
+       display: flex;
+       justify-content: flex-start;
+       align-content: center;
+       height: 80px;
+       margin: 0;
+       box-shadow: 0 0 10px rgba(0,0,0,.4);
+    }
+    /* Sets max width for logos in mobile nav */
+    .mobile-nav img {
+
+    }
+
+    /* Hides Sidebar on mobile */
+    .sidebar-container {
+       
+    }
+  
+    /* Defines mobile container content */
+    .section-container {
+      
+    }
+
+    /* Sets Type Styles */
+    h1 {
+        
+    }
+
+
+    .row-container-no-wrap {
+      
+    }
+
+    #Logo .section-logo {
+       
+    }
+
+
+}
+
+/* 
+====================================
+BONUS: Sets up css code snippet styles 
+====================================
+*/
+
+pre {
+
+}
