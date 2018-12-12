@@ -1,3 +1,49 @@
+/*
+=====================================
+Font styles for headers and p
+=====================================
+*/
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: .8em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
 /* 
 ====================================
 Sets up styles for .sidebar-container 
@@ -5,7 +51,7 @@ Sets up styles for .sidebar-container
 */
 
 .sidebar-container {
-    background-color: #333366;
+    background-color: #3e3e3e;
     height: 100%;
     position: fixed;
     padding: 60px;
@@ -21,7 +67,12 @@ Sets up styles for .sidebar-container
 }
 
 .sidebar-container a:hover{
+    color: #81bc11;
     text-decoration: underline;
+}
+
+.sidebar-logo {
+    width: 200px;
 }
 
 nav {
@@ -35,6 +86,44 @@ nav h2 {
     text-decoration: none;
 }
 
+/* 
+====================================
+Buttons
+====================================
+*/
+button {
+    border-style: none;
+    border: 5px solid #81BC11;
+    padding: 10px 15px;
+    background: white;
+    color: #81BC11;
+    border-radius: 16px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.button-normal {
+
+}
+
+.button-hover {
+    border: 5px solid #3e3e3e;
+    color: #3e3e3e;
+}
+
+.button-pressed {
+    border: 5px solid #272727;
+    color: #272727;
+}
+
+.button-loading {
+
+}
+
+.button-disable {
+    border: 5px solid #CCCCCC;
+    color: #CCCCCC;
+}
 /* 
 ====================================
 Sets up styles for .content-container 
@@ -146,6 +235,32 @@ BONUS: Sets up styles for mobile breakpoint
     }
 
 
+}
+
+/* 
+====================================
+Sets up styles for .content-container 
+====================================
+*/
+
+.color-grey {
+    background-color: #3e3e3e;
+    background: #3e3e3e;
+}
+
+.color-green {
+    background-color: #81BC11;
+    background: #81BC11;
+}
+
+.color-blue {
+    background-color: #4E5CCE;
+    background: #4E5CCE;
+}
+
+.color-lightGrey {
+    background-color: #CCCCCC;
+    background: #CCCCCC;
 }
 
 /* 
